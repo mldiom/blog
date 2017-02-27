@@ -23,7 +23,7 @@ html, body {
     display:inline-block;
     padding:15px;
   }
-  .header ul li{
+  ul li{
     list-style:none;
    display:inline;
   }
