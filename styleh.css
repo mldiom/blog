@@ -4,6 +4,17 @@ html, body {
   font-family: 'Libre Baskerville', sans-serif;
 }
 
+.header{
+    display:inline-block;
+    padding:15px;
+    background-color: transparent;
+  }
+  .header ul li{
+    list-style:none;
+   display:inline;
+      padding: 5px;
+  }
+
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -13,34 +24,37 @@ html, body {
   background-color: transparent;
 }
 
+h1 span{
+    color:#ffc200;
+  }
+
+.banner{
+    background-color: gray;
+    color:white;
+    text-align: center;
+    }
+.cards{
+    background-color:#FFC200;
+  }
+
 @media (max-width: 992px) {
   .col-md-4 {
     margin: 0 auto 0;
     text-align: center;
     width: 100%;
   }
-  .header{
-    display:inline-block;
-    padding:15px;
-  }
-  .header ul li{
-    list-style:none;
-   display:inline;
-  }
-  h1 span{
-    color:#ffc200;
-  }
-  .cards{
-    background-color:#FFC200;
-  }
+  
   .cards img {
     width: 60%;
   }
-  .banner {
-    background-color:#333;
-    color:white;
-  }
+  
 }
+
+.footer{
+    background-color:black;
+    color:white; 
+    padding:15px;
+  }
 
 @media (max-width: 500px) {
   .header h1 {
@@ -55,9 +69,5 @@ html, body {
   .cards img {
     width: 100%;
   }
-  .footer{
-    background-color:black;
-    color:white;
-    
-  }
+  
 }
